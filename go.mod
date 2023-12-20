@@ -1,4 +1,5 @@
-module github.com/b1naryth1ef/sneaker
+// module github.com/b1naryth1ef/sneaker
+module github.com/SPAS79/sneakerGCI
 
 go 1.17
 
