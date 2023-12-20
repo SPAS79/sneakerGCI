@@ -1,4 +1,4 @@
-@echo off
+REM @echo off
 set GOARCH=386
 
 echo Cleaning up...

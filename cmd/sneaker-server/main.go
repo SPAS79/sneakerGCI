@@ -3,11 +3,10 @@ package main
 
 import (
 	"encoding/json"
-	"io/ioutil"
 	"log"
 	"os"
 
-	"github.com/b1naryth1ef/sneaker/server"
+	"github.com/SPAS79/sneakerGCI/server"
 	"github.com/urfave/cli/v2"
 )
 
@@ -29,7 +28,7 @@ func main() {
 		Action: func(c *cli.Context) error {
 			var config server.Config
 
-			configData, err := ioutil.ReadFile(c.Path("config"))
+			configData, err := os.ReadFile(c.Path("config"))
 			if err != nil {
 				return err
 			}

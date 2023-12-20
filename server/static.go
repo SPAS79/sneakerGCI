@@ -4,12 +4,10 @@ import (
 	"bytes"
 	"os"
 
-	//"io/ioutil"
 	"net/http"
 	"path/filepath"
 	"time"
 
-	// "github.com/b1naryth1ef/sneaker"
 	sneaker "github.com/SPAS79/sneakerGCI"
 	"github.com/go-chi/chi/v5"
 )

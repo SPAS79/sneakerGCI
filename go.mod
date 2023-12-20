@@ -1,4 +1,3 @@
-// module github.com/b1naryth1ef/sneaker
 module github.com/SPAS79/sneakerGCI
 
 go 1.17
@@ -13,6 +12,7 @@ require (
 )
 
 require (
+	github.com/b1naryth1ef/sneaker v0.0.7
 	github.com/cpuguy83/go-md2man/v2 v2.0.0-20190314233015-f79a8a8ca69d // indirect
 	github.com/gorilla/websocket v1.4.2 // indirect
 	github.com/russross/blackfriday/v2 v2.0.1 // indirect
